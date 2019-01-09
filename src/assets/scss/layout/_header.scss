@@ -6,6 +6,7 @@
     &__left {
         display: flex;
         background-color: green;
+        font-size: 14px;
     }
     &__right {
         background-color: red;
@@ -17,6 +18,8 @@
 
 .middle_menu {
     background-color: yellow;
+    display: flex;
+    justify-content: center;
 }
 
 .lower_menu {
@@ -24,5 +27,15 @@
     background-color: green;
     ul {
         display: flex;
+        justify-content: center;
     }
+    li span {
+        border: 1px solid red;
+        margin: 0 5px;
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
 }

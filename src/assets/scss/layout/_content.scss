@@ -1,0 +1,14 @@
+.banner {
+    background-image: url('/src/assets/images/banner.png');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55% 30%;
+}
+
+.main__information {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
