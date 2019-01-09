@@ -1,0 +1,28 @@
+.menu {
+    background-color: #252c53;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    &__left {
+        display: flex;
+        background-color: green;
+    }
+    &__right {
+        background-color: red;
+        ul {
+            display: flex;
+        }
+    }
+}
+
+.middle_menu {
+    background-color: yellow;
+}
+
+.lower_menu {
+    color: #b8b8b8;
+    background-color: green;
+    ul {
+        display: flex;
+    }
+}

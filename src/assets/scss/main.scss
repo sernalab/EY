@@ -1,7 +1,9 @@
-@import 'reset';
-header {
-    background-color: red;
-    h1 {
-        color: aqua;
-    }
+@import 'base/reset';
+@import 'layout/_header';
+@import 'layout/_footer';
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
 }
