@@ -1,12 +1,16 @@
-@import 'base/reset';
-@import 'abstracts/variables';
-@import 'components/_thumbnail';
-@import 'components/_arrow';
-@import 'layout/_header';
-@import 'layout/_content';
-@import 'layout/_footer';
+// Base
+@import './base/reset';
+// Abstracts
+@import './abstracts/variables';
+// Components
+@import './components/_thumbnail';
+@import './components/_arrow';
+// Layout
+@import './layout/_header';
+@import './layout/_content';
+@import './layout/_footer';
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
