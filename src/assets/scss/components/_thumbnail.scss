@@ -1,3 +1,4 @@
+// Top Thumbnails
 .thumbnails {
     background-color: red;
     display: flex;
@@ -9,4 +10,11 @@
     img {
         height: 175px;
     }
+}
+
+// Bottom Thumbnails
+.thumbnails-bottom {
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
 }
