@@ -9,9 +9,10 @@
 .thumbnail {
     background-color: blue;
     padding-right: 20px;
+    box-shadow: 1px 11px 5px -6px rgba(0, 0, 0, 0.4);
     img {
         height: 210px;
-        width: 370px
+        width: 370px;
     }
     &:last-child {
         padding-right: 0;
@@ -28,6 +29,32 @@
 .thumbnails-bottom {
     background-color: green;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 75px;
+    .thumb {
+        position: relative;
+        background-color: blue;
+        background-image: url('/src/assets/images/cover_3.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 1px 11px 5px -6px rgba(0, 0, 0, 0.4);
+        height: 185px;
+        width: 275px;
+        margin: 0 20px 20px 0;
+        &:last-child {
+            padding-right: 0;
+        }
+        &__text {
+            padding: 15px;
+            background-color: rgba($orange, 0.8);
+            bottom: 0;
+            position: absolute;
+            width: 100%;
+        }
+        h3 {
+            font-size: 20px;
+            color: $blue;
+        }
+    }
 }
