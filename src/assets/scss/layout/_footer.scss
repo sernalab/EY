@@ -1,0 +1,30 @@
+footer {
+    background-color: orange;
+}
+
+.info {
+    background-color: aqua;
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.info {
+    background-color: aqua;
+    display: flex;
+    &__direction {
+        flex-direction: column;
+    }
+    &__contact {
+        flex-direction: column;
+    }
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+    ul {
+        display: flex;
+    }
+}
