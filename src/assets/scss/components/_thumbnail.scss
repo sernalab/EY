@@ -1,14 +1,13 @@
 // Top Thumbnails
 .thumbnails {
-    background-color: red;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .thumbnail {
-    background-color: blue;
-    padding-right: 20px;
+    background-color: white;
+    margin-right: 20px;
     box-shadow: 1px 11px 5px -6px rgba(0, 0, 0, 0.4);
     img {
         height: 210px;
@@ -27,7 +26,6 @@
 
 // Bottom Thumbnails
 .thumbnails-bottom {
-    background-color: green;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

@@ -1,5 +1,5 @@
 .menu {
-    background-color: $blue;
+    background-color: $blue-header;
     height: 50px;
     color: white;
     display: flex;
@@ -9,13 +9,11 @@
     font-size: 0.8em;
     &__left {
         display: flex;
-        background-color: green;
         i {
             padding: 0 6px;
         }
     }
     &__right {
-        background-color: red;
         font-size: 1.1em;
         ul {
             display: flex;
@@ -43,7 +41,6 @@
     align-items: center;
     justify-content: center;
     height: 50px;
-    background-color: green;
     padding: 20px 0;
     ul {
         display: flex;
