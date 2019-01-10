@@ -16,10 +16,14 @@
     }
     &__right {
         background-color: red;
+        font-size: 1.1em;
         ul {
             display: flex;
             li {
                 padding: 0 10px;
+            }
+            i {
+                padding: 0 5px;
             }
         }
     }
@@ -29,16 +33,16 @@
     background-color: yellow;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #b8b8b8;
+    height: 100px;
+    border-bottom: 1px solid $grey;
 }
 
 .lower_menu {
-    color: #b8b8b8;
-    font-size: 0.8em;
+    color: $grey;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 25px;
+    height: 50px;
     background-color: green;
     padding: 20px 0;
     ul {
@@ -49,7 +53,7 @@
         padding: 0 2px;
     }
     span {
-        border: 1px solid #b8b8b8;
+        border: 1px solid $grey;
         margin: 0 5px;
     }
 }
@@ -57,4 +61,8 @@
 .logo {
     display: flex;
     justify-content: center;
+    img {
+        height: 90px;
+        width: 90px;
+    }
 }

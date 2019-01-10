@@ -2,14 +2,19 @@
 .thumbnails {
     background-color: red;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .thumbnail {
     background-color: blue;
+    padding-right: 20px;
     img {
-        height: 175px;
+        height: 210px;
+        width: 370px
+    }
+    &:last-child {
+        padding-right: 0;
     }
 }
 

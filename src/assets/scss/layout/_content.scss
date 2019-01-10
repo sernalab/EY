@@ -1,20 +1,30 @@
 .banner {
     background-image: url('/src/assets/images/banner.png');
-    height: 275px;
+    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 55% 30%;
 }
 
-.main__information {
+.separator {
+    height: 1px;
+    border-bottom: 1px solid red;
+    width: 50%;
+}
+
+.main {
     background-color: yellow;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2.2em 0;
-    h1 {
+    margin: 50px 0;
+    &__title {
         color: $blue;
         font-size: 36px;
         font-weight: 100;
+        padding-bottom: 16px;
+    }
+    &__text {
+        padding-top: 16px;
     }
 }
