@@ -27,5 +27,8 @@
     &__text {
         color: $grey;
         padding-top: 16px;
+        @media screen and (max-width: 414px) {
+            padding: 16px;
+        }
     }
 }

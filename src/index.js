@@ -1,2 +1,2 @@
 import './assets/scss/main.scss';
-console.log('Hello EY')
+console.log('Hello EY');
