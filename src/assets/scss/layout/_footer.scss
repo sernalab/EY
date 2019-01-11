@@ -36,10 +36,9 @@ footer {
     display: flex;
     align-items: center;
     @media screen and (max-width: 780px) {
-        background-color: red;
         font-size: 12px;
     }
-    @media screen and (max-width: 414px) {
+    @media screen and (max-width: 695px) {
         display: none;
     }
     ul {
@@ -62,7 +61,7 @@ footer {
     @media screen and (max-width: 1600px) {
         display: none;
     }
-    @media screen and (max-width: 414px) {
+    @media screen and (max-width: 695px) {
         display: block;
         ul {
             text-align: center;
