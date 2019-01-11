@@ -139,7 +139,7 @@
         display: none;
     }
     @media screen and (max-width: 675px) {
-        display: none;
+        display: block;
         background-color: $blue-header;
         ul {
             text-align: center;
