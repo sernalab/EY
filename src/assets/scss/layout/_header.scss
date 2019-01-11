@@ -28,20 +28,48 @@
 }
 
 .middle_menu {
-    background-color: yellow;
+    background-color: white;
     display: flex;
     justify-content: center;
     height: 100px;
     border-bottom: 1px solid $grey;
+    position: relative;
+    .logo {
+        display: flex;
+        justify-content: center;
+        img {
+            height: 90px;
+            width: 90px;
+        }
+    }
+    .social {
+        position: absolute;
+        color: $grey;
+        right: 0;
+        bottom: 35%;
+        margin-right: 100px;
+        ul {
+            display: flex;
+            li {
+                margin-right: 10px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                i {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
 }
 
 .lower_menu {
-    color: $grey;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50px;
     padding: 20px 0;
+    background-color: white;
     ul {
         display: flex;
         justify-content: center;
@@ -52,14 +80,9 @@
             border: 1px solid $grey;
             margin: 0 5px;
         }
-    }
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    img {
-        height: 90px;
-        width: 90px;
+        a {
+            color: $grey;
+            text-decoration: none;
+        }
     }
 }

@@ -1,2 +1,2 @@
 import './assets/scss/main.scss';
-console.log('Hello webpack')
+console.log('Hello EY')
