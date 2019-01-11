@@ -5,6 +5,9 @@ footer {
     padding: 0 180px;
     font-size: 14px;
     color: white;
+    @media screen and (max-width: 414px) {
+        padding: 0 25px;
+    }
     .info {
         display: flex;
         padding-top: 10px;
@@ -21,6 +24,9 @@ footer {
         ul {
             display: flex;
             flex-direction: column;
+            @media screen and (max-width: 414px) {
+                font-size: 12px;
+            }
         }
     }
 }
@@ -33,6 +39,9 @@ footer {
         background-color: red;
         font-size: 12px;
     }
+    @media screen and (max-width: 414px) {
+        display: none;
+    }
     ul {
         display: flex;
         li {
@@ -44,6 +53,25 @@ footer {
             a {
                 color: white;
                 text-decoration: none;
+            }
+        }
+    }
+}
+
+.nav-footer-mobile {
+    @media screen and (max-width: 1600px) {
+        display: none;
+    }
+    @media screen and (max-width: 414px) {
+        display: block;
+        ul {
+            text-align: center;
+            li {
+                padding: 5px 0;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
             }
         }
     }

@@ -133,3 +133,23 @@
         }
     }
 }
+
+.lower_menu_mobile {
+    @media screen and (max-width: 1600px) {
+        display: none;
+    }
+    @media screen and (max-width: 675px) {
+        display: none;
+        background-color: $blue-header;
+        ul {
+            text-align: center;
+            li {
+                padding: 5px 0;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
